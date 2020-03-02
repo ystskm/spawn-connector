@@ -1,0 +1,30 @@
+{
+  "name": "spawn-connector",
+  "version": "1.0.0",
+  "author": {
+    "name": "Yoshitaka Sakamoto",
+    "url": "http://github.com/ystskm",
+    "email": "sakamoto@liberty-technology.biz"
+  },
+  "contributors": [],
+  "description": "A simple API for any command-line-based script",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "foonyah-ci": ">=0.0.1"
+  },
+  "keywords": ["util","spawn","shell"],
+  "main": "spawn-connector.js",
+  "repository": {
+    "url": "http://github.com/ystskm/spawn-connector",
+    "type": "git"
+  },
+  "scripts": {
+    "test": "node test/_runner.js"
+  },
+  "license": "MIT",
+  "licenses": [{
+    "type": "MIT License",
+    "url": "https://github.com/ystskm/spawn-connector/blob/master/LICENSE"
+  }]
+}
